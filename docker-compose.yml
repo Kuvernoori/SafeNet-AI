@@ -11,7 +11,7 @@ services:
 
   safenet-dashboard:
     build: ./dashboard
-    container_name: safenet-dashboard
+    container_name: safenet-dashboard # the main part
     ports:
       - "8501:8501"
     environment:

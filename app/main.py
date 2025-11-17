@@ -9,12 +9,12 @@ app = FastAPI(title="SafeNet AI API")
 def root():
     return {"message": "SafeNet AI API is running"}
 
-@app.post("/analyze_text/")
+@app.post("/analyze_text/") # for text
 async def analyze_text_api(text: str = Form(...)):
     result = analyze_text(text)
     return result
 
-@app.post("/analyze_image/")
+@app.post("/analyze_image/") # for image
 async def analyze_image_api(file: UploadFile = File(...)):
     with tempfile.NamedTemporaryFile(delete=False) as temp:
         content = await file.read()
