@@ -8,10 +8,10 @@ Version: MVP Prototype
 SafeNet is an MVP prototype designed to detect cyberbullying, toxic language, and harmful content in both text and images.
 The project demonstrates the core ideas of an automated moderation system:
 
-✔ how a moderation API works
-✔ how text and image analysis can be implemented
-✔ how a dashboard for moderators may look
-✔ how content flows through a backend + frontend system
+- how a moderation API works
+- how text and image analysis can be implemented
+- how a dashboard for moderators may look
+- how content flows through a backend + frontend system
 
 SafeNet includes:
 
@@ -54,3 +54,4 @@ docker compose up --build
 Service	URL
 Backend API (FastAPI)	http://localhost:8000
 Moderation Dashboard http://localhost:8501
+
