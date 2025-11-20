@@ -43,6 +43,12 @@ This MVP focuses on demonstrating functionality, not fully accurate ML performan
 docker-compose.yml
 README.md
 ```
+Steps: 
+
+git clone https://github.com/kuvernoori/safenet.git
+
+cd safenet (You need to move on the project)
+
 
 🐳 Running via Docker
 
@@ -50,9 +56,11 @@ README.md
 docker compose up --build
 ```
 
+
 2. Access the running services:
 Service	URL
 Backend API (FastAPI)	http://localhost:8000
-Moderation Dashboard http://localhost:8501
+Moderation Dashboard http://localhost:8501 (You need this!)
+
 
 
