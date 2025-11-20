@@ -1,4 +1,4 @@
-📘 SafeNet
+📘 SafeNet (Python + Docker + PIL + text analyzer)
 
 Text + Image Moderation System
 Version: MVP Prototype
@@ -54,4 +54,5 @@ docker compose up --build
 Service	URL
 Backend API (FastAPI)	http://localhost:8000
 Moderation Dashboard http://localhost:8501
+
 
